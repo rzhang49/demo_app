@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @new_user.name %>
+</p>
+
+<p>
+  <b>Work:</b>
+  <%= @new_user.work %>
+</p>
+
+<p>
+  <b>Time:</b>
+  <%= @new_user.time %>
+</p>
+
+
+<%= link_to 'Edit', edit_new_user_path(@new_user) %> |
+<%= link_to 'Back', new_users_path %>
